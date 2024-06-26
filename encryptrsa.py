@@ -2,7 +2,7 @@ import os
 import threading
 import time
 
-def deleteUIelements():
+def deleteUIelements(): #commented out because what the fuck
     print("y")
     #path1 = "C:\Windows\SystemResources\imageres.dll.mun"
     #os.remove(path1)
@@ -22,7 +22,7 @@ def francefreestyle(start_event, done_event):
     done_event.set()
 
 
-# Create Event objects to synchronize the start and completion of threads
+# Create event objects to synchronize the start and completion of threads
 start_event = threading.Event()
 done_event1 = threading.Event()
 done_event2 = threading.Event()
